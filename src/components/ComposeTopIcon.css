@@ -1,0 +1,16 @@
+.composeTop_Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.composeTop_Icon > svg {
+    color: gray;
+    font-size: 15px;
+}
+
+.composeTop_Icon:hover > svg {
+    background-color: rgba(255, 255, 255, .25);
+    color: #fff;
+}

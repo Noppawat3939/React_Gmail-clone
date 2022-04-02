@@ -1,0 +1,67 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #818181;
+}
+
+.sidebarOption:hover,
+.sidebarOption:hover > p,
+.sidebarOption:hover > h3,
+.sidebarOption_active,
+.sidebarOption_active > p,
+.sidebarOption_active > h3 {
+    color: #c04b37;
+    background-color: #fcecec;
+    font-weight: 600 !important;
+}
+
+.sidebarOption > h3 {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    display: none;
+}
+
+.sidebarOption > p {
+    font-size: 13px;
+    font-weight: 300;
+    display: none;
+}
+
+.sidebarOption_active > p {
+    display: none;
+}
+
+.sidebarOption:hover > p {
+    display: inline;
+}
+
+button .sidebarOption  {
+    flex: 1;
+    background-color: #fff;
+}
+
+button .sidebarOption > h3  {
+    text-align: start;
+}
+
+.sidebar:hover .sidebarOption > h3,
+.sidebar.active .sidebarOption > h3,
+.sidebar:hover .sidebarOption > p,
+.sidebar.active .sidebarOption > p {
+    display: block;
+}
+
+.sidebar_footerTop .sidebarOption:nth-child(1) {
+    pointer-events: none;
+}
+
+.sidebar:hover .sidebar_footerTop .sidebarOption:nth-child(1) > svg {
+    display: none;
+}

@@ -1,0 +1,48 @@
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px 5px;
+    z-index: 999;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_left .logo {
+    max-height: 30px;
+    object-fit: contain;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.header_middle {
+    display: flex;
+    align-items: center;
+    flex: .7;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header_middle > input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.header_right {
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+}

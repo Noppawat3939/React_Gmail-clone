@@ -1,0 +1,99 @@
+.linktoMail {
+    color: #333;
+}
+
+.emailRow {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-bottom: 1px solid lightgray;
+}
+
+.emailRow:hover {
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,.24);
+    border-top: 1px solid lightgrey;
+}
+
+.emailRow:hover .emailRow_options.right {
+    display: flex;
+}
+
+.emailRow:hover .emailRow_time {
+    display: none;
+}
+
+.emailRow:hover svg {
+    color: gray;
+}
+
+.emailRow_options.right {
+    display: none;
+    padding-right: 15px;
+    margin-left: 5px;
+}
+
+.emailRow_options {
+    display: flex;
+}
+
+.emailRowIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.emailRowIcon > svg {
+    font-size: 20px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.emailRow_options.left > .emailRowIcon:nth-child(3) > svg {
+    color: #f2a60c !important;
+}
+
+.emailRowIcon:hover {
+    background-color: rgba(0,0,0,.05);
+}
+
+.emailRowIcon:hover > svg {
+    color: #333;
+}
+
+.emailRow_title {
+    font-size: 14px;
+    font-weight: 500;
+    flex: .2;
+}
+
+.emailRow_message {
+    display: flex;
+    column-gap: 5px;
+    flex: .8;
+    align-items: center;
+    font-size: 14px;
+}
+
+.emailRow_message > h4 {
+    width: 400px;
+    overflow: hidden;
+    font-weight: 400;
+    padding: 0 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.emailRow_message > h4 > span {
+    color: gray;
+    padding-left: 5px;
+}
+
+.emailRow_time {
+    font-size: 13px;
+    padding-right: 15px;
+}

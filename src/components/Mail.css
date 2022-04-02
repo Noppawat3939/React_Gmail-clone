@@ -1,0 +1,163 @@
+.mail {
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+.mail_tools {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.mail_toolLeft,
+.mail_toolRight {
+    display: flex;
+    padding: 5px 10px;
+}
+
+.emailToolIcon {
+    color: gray;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.emailToolIcon:hover {
+    background-color: rgba(0, 0, 0, .05);
+    color: #333;
+}
+
+.mail_body {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    background-color: #fff;
+    padding: 20px;
+    height: 100vh;
+    box-shadow: -2px 3px 8px -3px rgba(0, 0, 0, .07);
+}
+
+.mail_bodyHeader {
+    display: flex;
+    border-bottom: 1px solid whitesmoke;
+    padding: 20px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.mail_bodyHeaderLeft {
+    display: flex;
+    align-items: center;
+}
+
+.mail_important {
+    color: #f2a60c !important;
+    font-size: 20px;
+}
+
+.mail_bodyHeaderLeft > h2 {
+    font-weight: 400;
+    margin: 0 30px;
+}
+
+.mail_bodyHeaderLeft > p {
+    margin-left: 20px;
+}
+
+.mail_bodyHeaderRight {
+    display: flex;
+}
+
+.mail_messageHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail_messageHeaderLeft {
+    display: flex;
+}
+
+.mail_titleTop, 
+.mail_titleBottom {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.mail_titleTop > h3 {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.mail_titleTop > p,
+.mail_titleBottom > p {
+    font-size: 13px;
+    color: gray;
+}
+
+.mail_titleBottom {
+    margin-left: 10px;
+}
+
+.mail_titleBottom .emailToolIcon {
+    padding: 0 2px;
+    line-height: 2px;
+    border-radius: 3px;
+    display: inline;
+}
+
+.mail_message > p {
+    padding: 10px;
+    margin-right: 20px;
+    overflow-wrap: break-word;
+}
+
+.mail_avatar > img {
+    height: 40px;
+}
+
+.mail_messageHeaderRight {
+    display: flex;
+    align-items: center;
+}
+
+.mail_messageHeaderRight > p {
+    margin-right: 5px;
+    font-size: 13px;
+    color: gray;
+}
+
+.mail_footer {
+    background-color: #fff;
+    display: flex;
+    flex: 1;
+    padding: 10px 20px 40px;
+}
+
+.mail_footerButtons {
+    display: flex;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 5px 15px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    background-color: #fff;
+    color: gray;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin: 0 5px;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+}

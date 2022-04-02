@@ -1,0 +1,57 @@
+.composeFooter_Send {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft_send_Left,
+.ft_send_Right {
+    display: flex;
+    align-items: center;
+}
+
+.ft_send_Left > button {
+    background-color: #3e65cf !important;
+    color: #fff;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.ft_send_Left > button > span {
+    padding: 8px 12px;
+    border-right: 1px solid rgba(0, 0, 0, .25);
+}
+
+.ft_send_Left > button > svg {
+    font-size: 20px;
+    margin: 0 2px;
+}
+
+.ft_send_Left > button:hover {
+    box-shadow: 0 3px 8px -2px #3e65cfb9;
+}
+
+.ft_send_Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 3px;
+    transition: .4s;
+    margin-left: 5px;
+}
+
+.ft_send_Icon:hover {
+    background-color: rgba(0, 0, 0, .05);
+    border-radius: 3px;
+}
+
+.ft_send_Icon:hover > svg {
+    color: #333;
+}
+
+.ft_send_Icon > svg {
+    font-size: 18px;
+    color: gray;
+}
